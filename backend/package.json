@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "display of all my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node /index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mlutz060/MadiProjects.git"
+  },
+  "author": "Madison Blotter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlutz060/MadiProjects/issues"
+  },
+  "homepage": "https://github.com/mlutz060/MadiProjects#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}
