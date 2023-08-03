@@ -1,21 +1,24 @@
-const express = require('express');
-const env = require("dotenv").config()
-const static = require("./routes/static")
-const app = express();
-const expressLayouts = require("express-ejs-layouts");
+const express = require("express");
+const app = express()
+const expressLayouts = require('express-ejs-layouts')
+
+
+
+
+const indexRouter = require('./routes/index')
+
+app.set('view engine', 'ejs')
+app.set('views', __dirname + '/views')
+app.set('layout', 'layouts/layout')
+app.use(expressLayouts)
+app.use(express.static('public'))
+
+// Database connection
+const mongoose = require('mongoose')
+mongoose.connect(process.env.DATABASE_URL)
 
 
 // routes
-app.set("view engine", "ejs");
-app.use(expressLayouts)
-app.set("layout", "./layouts/layout")
+app.use('/', indexRouter)
 
-app.use(static)
-
-// local server information
-const port = process.env.PORT;
-const host = process.env.host
-
-app.listen(port, () => {
-    console.log(`app listening on ${host}:${port}`)
-})
+app.listen(process.env.PORT || 3001)
