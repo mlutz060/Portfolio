@@ -1,0 +1,40 @@
+.header{
+
+  nav{
+    width: 50%;
+    float: right;
+    ul{
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      li{
+        padding: 1em;
+      }
+      .link{
+        text-decoration: none;
+        color:#242F1F;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 2em; 
+        padding: 1em;    
+      }       
+     }
+    }
+
+    @keyframes navSlidein {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+}
+
+.main{
+  background-color: #F0D0B2;
+  color: #fff;
+  width: 100%;
+}

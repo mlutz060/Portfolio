@@ -1,0 +1,62 @@
+[
+    {
+        "title": "IT Co-op Intern",
+        "company": "Copeland",
+        "duration": "Sep 2023 - Dec 2023",
+        "accomplishments": [
+            "Worked with a global team to develop solutions for mobile and web applications",
+            "Developed algorithms to implement optical character recognition software into an application to improve the user experience",
+            "Learned new software to help develop business solutions in real time ",
+            "Communicated with people across the company to produce a solution to better track and store new product development key performance indicators",
+            "Helped to optimize business processes by developing storage solutions and visual displays",
+            "Developed a website using Angular and Angular Material to support an existing mobile application and retain after-market customers"
+        ]
+    },
+    {
+        "title": "User Experience Designer",
+        "company": "",
+        "duration": "April 2023 -  May 2023",
+        "accomplishments": [
+            "Redesigned an e-commerce site using design principals to improve client experience",
+            "Used Figma to create wireframes and provide detailed explanations of placement and material to use on the site",
+            "Receive feedback from clients and adjust designs accordingly"
+        ]
+    },
+    {
+        "title": "Full Stack Intern",
+        "company": "Brigham Young University Idaho",
+        "duration": "Sep 2022 - Dec 2022",
+        "accomplishments": [
+            "Created and updated wireframes and design mockups using Figma",
+            "Rewrote a vanilla JS application to use React framework and improve performance",
+            "Developed and updated API written in C#",
+            "Used Agile framework and SCRUM to organize group collaboration",
+            "Worked with a SQL database to organize and collect data",
+            "Evaluated and provided feedback to merge requests on Github",
+            "Peer programmed and review code to ensure current objectives were being met",
+            "Led team meetings and sprint reviews"
+        ]
+    },
+    {
+        "title": "Development Intern",
+        "company": "VigiLife",
+        "duration": "Aug 2021 - Oct 2021",
+        "accomplishments": [
+            "Used Adobe Creative Cloud to design digital and printable marketing material for distribution",
+            "Participated in weekly meetings to discuss strategy and planning with marketing and development teams",
+            "Learned how to use WebFlow"
+        ]
+    },
+    {
+        "title": "Customer Support Specialist",
+        "company": "Copeland",
+        "duration": "Jan 2021 - April 2021",
+        "accomplishments": [
+            "Sifted through a large knowledge base to find key information",
+            "Calmly communicated with people of various backgrounds, stress-levels, and languages",
+            "Practiced continuing education through meetings and online courses",
+            "Took key notes while talking with others and summarized the problem they were facing and how it was resolved",
+            "Communicated clearly in different ways to ensure that everyone I talked to could understand what was being explained"
+        ]
+    }
+]

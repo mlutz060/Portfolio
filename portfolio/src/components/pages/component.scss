@@ -1,0 +1,87 @@
+.home {
+
+  // home nav
+  nav{
+    width: 50%;
+    float: right;
+    padding: 1em 2em 1em 0em;
+    ul{
+      list-style-type: none;
+      display: block;
+      li{
+        padding: 1em;
+      }
+      .link{
+        text-decoration: none;
+        color:#242F1F;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 2em;
+        animation-duration: 3s;
+        animation-name: navSlidein;     
+        opacity: 0.6;   
+        padding: 1em;    
+      } 
+      .link:active{
+        color: aqua;
+      }
+      .link:hover {
+        opacity: 1;
+        font-size: 2.5em;
+        transition: opacity 0.8s ease-in-out, font-size 0.8s ease-in-out; 
+      }
+      
+     }
+    }
+
+  width: 95%;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: D9D5D2;
+  img {
+    width: 45%;
+    border-radius: 5px;
+    animation-duration: 3s;
+    animation-name: imageDropDown;
+  }
+  .title {
+    position: absolute;
+    top:75%;
+    width: 45%;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #F0D0B2);
+    h1 {
+      font-size: 4.5em;
+      animation-duration: 3s;
+      animation-name: titleSlidein;
+      color: #242F1F;
+      padding: 0em 0em 0em 0.5em;
+    }
+    h2 {
+      margin-top: -3em;
+      animation-duration: 3s;
+      animation-name: titleSlidein;
+      color: #242F1F;
+      padding: 0em 0em 0em 1.5em;
+    }
+  }
+
+  @keyframes imageDropDown {
+    from {
+      transform: translateY(-10em);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes titleSlidein {
+    from {
+      transform: translateX(100%);
+      width: 300%;
+    }
+    to {
+      transform: translateX(0);
+      width: 100%;
+    }
+  }
+
+}
